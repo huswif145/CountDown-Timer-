@@ -1,0 +1,24 @@
+{
+  "name": "countdown-timerkkk",
+  "version": "1.0.0",
+  "description": "contdown timer",
+  "main": "index.js",
+  "type": "module",
+  "bin": {
+    "countdown-timer": "index.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "Rimsha",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/inquirer": "^9.0.7",
+    "@types/node": "^20.14.1"
+  },
+  "dependencies": {
+    "date-fns": "^3.6.0",
+    "inquirer": "^9.2.23"
+  }
+}
